@@ -58,12 +58,15 @@ def hit?(card_total)
 end
 
 
-
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
 
 def runner
-  # code runner here
+  if card_total < 21
+  welcome
+  initial_round
+  hit?
+  display_card_total
 end
     
