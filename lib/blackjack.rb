@@ -63,11 +63,11 @@ end
 #####################################################
 
 def runner
-  if card_total < 21
   welcome
   count = initial_round
   card_total = count
-
+  until card_total > 21
+  card_total
 end
 end
     
