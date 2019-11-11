@@ -51,9 +51,9 @@ def hit?(card_total)
     elsif value == "s"
     card_total
   else
+        prompt_user
     invalid_command
   end
-      prompt_user
 end
 
 
