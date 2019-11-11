@@ -65,11 +65,9 @@ end
 def runner
   if card_total < 21
   welcome
-  initial_round
-  hit?
-  display_card_total
-else 
-end_game
+  count = initial_round
+  card_total = count
+
 end
 end
     
